@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<posts>
+  <post user="1" image="/Image/Key1.png" text="test1" />
+  <post user="1" image="/Image/Key1.png" text="test2" />
+  <post user="2" image="/Image/Key1.png" text="test3" />
+  <post user="1" image="/Image/cat1.jpeg" text="testing" />
+  <post user="1" image="/Image/cat3.jpeg" text="11" />
+  <post user="3" image="/Image/cat2.jpeg" text="Test Test Test Test" />
+  <post user="1" image="/Image/cat4.jpeg" text="test99" />
+  <post user="3" image="/Image/cat5.jpeg" text="22" />
+  <post user="3" image="/Image/cat4.jpeg" text="22" />
+  <post user="1" image="/Image/cat3.jpeg" text="33" />
+  <post user="3" image="/Image/cat1.jpeg" text="11" />
+  <post user="1" image="/Image/cat3.jpeg" text="5" />
+</posts>

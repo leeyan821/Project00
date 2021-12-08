@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<follows>
+	<follow userId="1" follwing="2"/>
+	<follow userId="1" follwing="3"/>
+	<follow userId="2" follwing="1"/>
+</follows>

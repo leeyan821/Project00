@@ -1,0 +1,25 @@
+﻿<Page x:Class="Project00.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Project00.ViewModel"
+      xmlns:ViewModel ="clr-namespace:Project00.ViewModel"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="800"
+      Title="Login">
+    <Page.DataContext>
+        <ViewModel:LoginViewModel/>
+    </Page.DataContext>
+    <Grid>
+        <Border Width="330" Height="400" CornerRadius="10" BorderThickness="2" BorderBrush="#FFD7D4D4">
+            <StackPanel>
+                <Label Content="OutStarGram" HorizontalAlignment="Center" Margin="30,70,30,10" FontSize="22" FontWeight="Bold" FontFamily="Sitka Subheading" FontStyle="Italic"/>
+                <TextBox Height="30" HorizontalAlignment="Center" Margin="30,10,30,10" Text="{Binding Id}" Width="260" FontSize="16"/>
+                <TextBox Height="30" HorizontalAlignment="Center" Margin="30,10,30,10" Text="{Binding Password}" Width="260" FontSize="16"/>
+                <Button Content="로그인" Width="260" Height="30" HorizontalAlignment="Center" Margin="30,10,30,10" Background="#B2B2DFFC" Foreground="White" FontSize="15" FontWeight="Bold" RenderTransformOrigin="0.5,0.5" BorderBrush="#B2B2DFFC" Click="Button_Click">
+                </Button>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

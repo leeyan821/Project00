@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<users>
+  <user id="1" password="1" name="A" show="Y" followerNum="1" followingNum="2" postNum="6" profile="/Image/profile1.jpg" />
+  <user id="2" password="2" name="B" show="N" followerNum="1" followingNum="1" postNum="1" profile="/Image/profile2.jpg" />
+  <user id="3" password="3" name="K" show="Y" followerNum="1" followingNum="0" postNum="0" profile="/Image/profile3.jpg" />
+  <user id="Test" password="4" name="test" show="Y" followerNum="0" followingNum="0" postNum="0" profile="/Image/profile3.jpg" />
+  <user id="5" password="5" name="five" show="Y" followerNum="0" followingNum="0" postNum="0" profile="/Image/profile2.jpg" />
+</users>
